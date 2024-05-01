@@ -1,0 +1,14 @@
+{
+    "first":[
+        "echo hello, world!",
+        "echo \"I from first\""
+    ],
+    "second":{
+        "third":[
+            "echo \"I from second/third\""
+        ],
+        "four {args}":[
+            "echo \"your argument is {args}\""
+        ]
+    }
+}
